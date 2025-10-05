@@ -1,0 +1,36 @@
+[build-system]
+requires = [
+    "setuptools",
+    "build",
+    "wheel",
+]
+
+[project]
+name = "a1e"
+version = "0.0.1"
+authors = [
+    { name = "John Schember", email = "john@nachtimwald.com" },
+]
+
+description = "Apple 1 Emulator"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+keywords = [ "apple", "apple 1", "emulator" ]
+
+requires-python = ">=3.13"
+dependencies = []
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Games/Entertainment",
+    "Topic :: System :: Emulators"
+]
+
+[project.urls]
+Homepage = "https://github.com/user-none/a1e"
+Repository = "https://github.com/user-none/a1e"
+Issues = "https://github.com/user-none/a1e/issues"
+
+[project.scripts]
+a1e = "a1e.main:main"
